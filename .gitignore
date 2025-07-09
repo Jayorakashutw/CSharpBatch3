@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ConsoleApp3/CopilotIndices/17.14.734.62261
+*.vsidx
+*.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/.vs/ConsoleApp3/FileContentIndex/8c2a971b-9cf1-4008-b547-734401d7ba1a.vsidx
+/.vs/ConsoleApp3/FileContentIndex/read.lock
+*.json
