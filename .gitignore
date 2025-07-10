@@ -11,3 +11,12 @@
 /.vs/ConsoleApp3/FileContentIndex/8c2a971b-9cf1-4008-b547-734401d7ba1a.vsidx
 /.vs/ConsoleApp3/FileContentIndex/read.lock
 *.json
+/.vs/CSharpBatch3/v17
+/bin/Debug/ConsoleApp3.exe
+/bin/Debug/ConsoleApp3.pdb
+/obj/Debug/ConsoleApp3.csproj.CoreCompileInputs.cache
+/obj/Debug/ConsoleApp3.csproj.FileListAbsolute.txt
+/obj/Debug/ConsoleApp3.exe
+*.config
+/obj/Debug/ConsoleApp3.pdb
+/.vs/ConsoleApp3/copilot-chat/ec00e440/sessions/983d4ce9-5cd0-4e8d-bfd8-a0242d77f5be

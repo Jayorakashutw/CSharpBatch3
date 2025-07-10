@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operators\Arithmatic.cs" />
+    <Compile Include="Operators\Assignment.cs" />
+    <Compile Include="Operators\TernaryRelationalComparisonal.cs" />
+    <Compile Include="Operators\Unary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
