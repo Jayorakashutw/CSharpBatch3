@@ -1,4 +1,5 @@
 ﻿using ConsoleApp3.Operators;
+using ConsoleApp3.Statement;
 using System;
 namespace ConsoleApp3
 {
@@ -6,8 +7,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            TernaryRelationalComparisonal trc=new TernaryRelationalComparisonal();
-            trc.CheckCarEligibility();
+            ConditionIfElse cie = new ConditionIfElse();
+            cie.SimpleCalculator();
             Console.ReadKey();
         }
     }
