@@ -7,8 +7,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            ConditionIfElse cie = new ConditionIfElse();
-            cie.SimpleCalculator();
+            JumpStatement js = new JumpStatement();
+            js.PrimeNo();
             Console.ReadKey();
         }
     }
