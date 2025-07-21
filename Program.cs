@@ -1,4 +1,6 @@
-﻿using ConsoleApp3.Operators;
+﻿using ConsoleApp3.ArrayExamples;
+using ConsoleApp3.Looping;
+using ConsoleApp3.Operators;
 using ConsoleApp3.Statement;
 using System;
 namespace ConsoleApp3
@@ -7,8 +9,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            JumpStatement js = new JumpStatement();
-            js.PrimeNo();
+            ArrayPractice ap = new ArrayPractice();
+            ap.InbuildArcrayFunction();
             Console.ReadKey();
         }
     }
