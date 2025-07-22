@@ -54,6 +54,7 @@
     <Compile Include="Statement\ConditionIfElse.cs" />
     <Compile Include="Statement\JumpStatement.cs" />
     <Compile Include="Statement\SwitchCase.cs" />
+    <Compile Include="StringFunction\StringExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
