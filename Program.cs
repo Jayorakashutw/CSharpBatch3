@@ -2,6 +2,7 @@
 using ConsoleApp3.Looping;
 using ConsoleApp3.Operators;
 using ConsoleApp3.Statement;
+using ConsoleApp3.StringFunction;
 using System;
 namespace ConsoleApp3
 {
@@ -9,8 +10,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            ArrayPractice ap = new ArrayPractice();
-            ap.InbuildArcrayFunction();
+            StringExample stringExample = new StringExample();
+            stringExample.Interview();
             Console.ReadKey();
         }
     }
