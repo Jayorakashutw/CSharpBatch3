@@ -1,5 +1,6 @@
 ﻿using ConsoleApp3.ArrayExamples;
 using ConsoleApp3.Looping;
+using ConsoleApp3.MathFunction;
 using ConsoleApp3.Operators;
 using ConsoleApp3.Statement;
 using ConsoleApp3.StringFunction;
@@ -10,8 +11,8 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            StringExample stringExample = new StringExample();
-            stringExample.Interview();
+            MathExamples me = new MathExamples();
+            me.AreaCircle();
             Console.ReadKey();
         }
     }
