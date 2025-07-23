@@ -1,0 +1,219 @@
+﻿
+
+🧵 String Interview Questions in C#
+
+🔹 Basic String Questions
+
+1. What is a string in C#? Is it a value or reference type?
+
+
+2. How are strings stored in memory? Are they mutable or immutable?
+
+
+3. What is the difference between String, StringBuilder, and char[] in C#?
+
+
+4. How do you compare two strings in C#?
+
+
+5. What is string interning?
+
+
+
+🔹 String Methods/Functions
+
+6. What does the string.Split() method do?
+
+
+7. How do you convert a string to uppercase or lowercase?
+
+
+8. Explain the difference between ==, .Equals(), and Compare() methods.
+
+
+9. How do you check if a string contains a specific word?
+
+
+10. How to remove white spaces from a string?
+
+
+
+🔹 Coding Tasks on String
+
+11. Write a program to reverse a string without using built-in methods.
+
+
+12. Check if a given string is a palindrome.
+
+
+13. Count the number of vowels and consonants in a string.
+
+
+14. Find the first non-repeating character in a string.
+
+
+15. Write a program to remove duplicate characters from a string.
+
+
+
+
+---
+
+➗ Math Function Interview Questions in C#
+
+🔹 Basic Conceptual Questions
+
+1. What is the Math class in C#? Is it static or instance-based?
+
+
+2. What is the difference between Math.Round(), Math.Floor(), and Math.Ceiling()?
+
+
+3. How do you calculate power and square root in C#?
+
+
+4. What is the output of Math.Pow(2, 3)?
+
+
+5. What is the use of Math.Abs() and Math.Sign()?
+
+
+
+🔹 Practical Coding Questions
+
+6. Write a program to find the factorial of a number.
+
+
+7. Write a program to check whether a number is prime.
+
+
+8. Calculate the LCM or GCD of two numbers using Math functions.
+
+
+9. Write a program to generate a random number between 1 and 100.
+
+
+10. Find the maximum, minimum, and average of an array of numbers.
+
+
+
+
+---
+
+📝 Sample Coding Question (Math + String Combo)
+
+> Q: Given a string of digits, write a C# program to calculate the sum of all digits.
+
+
+
+// Input: "12345" -> Output: 15
+
+✅ Answer:
+
+string input = "12345";
+int sum = 0;
+
+foreach (char c in input)
+{
+    sum += c - '0'; // Convert char to int
+}
+
+Console.WriteLine("Sum of digits: " + sum);
+
+
+Here are programming questions based on String functions and Math functions in C#, commonly asked in technical interviews and useful for both learning and teaching.
+
+
+---
+
+🧵 String Function-Based Programming Questions
+
+1. ✅ Count the number of vowels and consonants in a string.
+
+// Input: "Hello World" → Output: Vowels = 3, Consonants = 7
+
+2. ✅ Reverse a string using built-in functions.
+
+string reversed = new string(input.Reverse().ToArray());
+
+3. ✅ Check if a string is a palindrome using string methods.
+
+// Input: "madam" → Output: True
+
+4. ✅ Convert the first letter of each word to uppercase (Title Case).
+
+// Input: "hello world" → Output: "Hello World"
+
+5. ✅ Count the frequency of each character in a string.
+
+6. ✅ Remove all white spaces from a string.
+
+// Input: " a b c " → Output: "abc"
+
+7. ✅ Check if two strings are anagrams.
+
+// Input: "listen", "silent" → Output: True
+
+8. ✅ Replace all spaces with hyphens using Replace() method.
+
+string result = input.Replace(" ", "-");
+
+9. ✅ Find the longest word in a sentence.
+
+10. ✅ Check whether a string contains only digits.
+
+bool isDigitOnly = input.All(char.IsDigit);
+
+
+---
+
+➗ Math Function-Based Programming Questions
+
+1. ✅ Find the square root of a number.
+
+double result = Math.Sqrt(25); // Output: 5
+
+2. ✅ Check if a number is a perfect square using Math.Sqrt().
+
+3. ✅ Round a number to 2 decimal places.
+
+double rounded = Math.Round(12.3456, 2); // Output: 12.35
+
+4. ✅ Generate a random number between 1 and 100.
+
+Random rand = new Random();
+int num = rand.Next(1, 101);
+
+5. ✅ Find the absolute difference between two numbers.
+
+int diff = Math.Abs(a - b);
+
+6. ✅ Find the power of a number using Math.Pow().
+
+double power = Math.Pow(2, 3); // Output: 8
+
+7. ✅ Find the maximum and minimum of two numbers.
+
+int max = Math.Max(a, b);
+int min = Math.Min(a, b);
+
+8. ✅ Use Math.Ceiling() and Math.Floor() with float values.
+
+9. ✅ Calculate area of a circle using Math.PI.
+
+double area = Math.PI * radius * radius;
+
+10. ✅ Convert degrees to radians for trigonometric functions.
+
+double radians = degrees * (Math.PI / 180);
+
+
+---
+
+💡 Bonus Combo Questions (String + Math)
+
+🔁 Sum of digits in a numeric string
+
+// Input: "1234" → Output: 10
+
+💥 Find if a string contains any perfect square digits (4, 9, 16...)

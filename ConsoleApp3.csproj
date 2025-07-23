@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ArrayExamples\ArrayPractice.cs" />
     <Compile Include="Looping\LoopingExamples.cs" />
+    <Compile Include="MathFunction\MathExamples.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Assignment.cs" />
     <Compile Include="Operators\TernaryRelationalComparisonal.cs" />
@@ -59,6 +60,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="InterviewPractice Question.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
