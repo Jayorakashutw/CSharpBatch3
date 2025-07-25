@@ -1,4 +1,5 @@
 ﻿using ConsoleApp3.ArrayExamples;
+using ConsoleApp3.functionExample;
 using ConsoleApp3.Looping;
 using ConsoleApp3.MathFunction;
 using ConsoleApp3.Operators;
@@ -11,8 +12,11 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            MathExamples me = new MathExamples();
-            me.AreaCircle();
+            FunctionDemo fd = new FunctionDemo();
+            int res = fd.Sum();
+            Console.WriteLine("Return type without Parameter  sum exampe "+ res);
+            double result = fd.Sum(544, 78);
+            Console.WriteLine("Retrun type with Paramter  sum example " + result);
             Console.ReadKey();
         }
     }

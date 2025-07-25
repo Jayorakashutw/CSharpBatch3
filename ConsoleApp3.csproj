@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayExamples\ArrayPractice.cs" />
+    <Compile Include="functionExample\FunctionDemo.cs" />
     <Compile Include="Looping\LoopingExamples.cs" />
     <Compile Include="MathFunction\MathExamples.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
@@ -63,5 +64,6 @@
   <ItemGroup>
     <Content Include="InterviewPractice Question.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
