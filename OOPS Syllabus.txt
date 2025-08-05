@@ -1,0 +1,37 @@
+﻿OOPS
+	1. OOPS Concept
+	2. Access Modifier
+	3. Abstraction and Encapsulation
+	4. Polymorphism
+		a) virtual
+		b) override
+	5. Inheritance
+		a)base
+	6. this, sealed, static, partial and readonly keyword
+
+	This - this referes to the current instance of a class. it's mainly used to differentiate between class fields and method parameter when they have the same name
+
+	static - static members belongs to the class itselt, not to an object. which means you can access them without creating an object
+
+	readonly - readonly fields can be assigned only once, either at declearation or in the constructor to make value unchangable.
+
+	partial - this keyword is uded to split the defination of class , or interface into multiple file.
+
+	why do we use??
+
+	 1. to divide large classes into small managable pieces.
+	 2. Helpfull in team env. where multiple developers work on the small class
+	 3. Use Case - Large project, Team Collaboration
+
+
+
+Advance
+	1. Interface
+	2. Abstract Class
+	3. Threading
+	4. Exception Handling - try, catch, finally , throw, custom exceptions
+	5. Collection - List, Dictionary, IList
+	6. Recursion
+	7. out and ref, value, params
+	8. Delegates
+	9. Anonymous, Lambda Expression, Func, Action, Predicate, 

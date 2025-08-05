@@ -47,6 +47,9 @@
     <Compile Include="functionExample\FunctionDemo.cs" />
     <Compile Include="Looping\LoopingExamples.cs" />
     <Compile Include="MathFunction\MathExamples.cs" />
+    <Compile Include="OOPSExamples.cs" />
+    <Compile Include="OOPS\ConstructorExample.cs" />
+    <Compile Include="OOPS\PersonDetail.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Assignment.cs" />
     <Compile Include="Operators\TernaryRelationalComparisonal.cs" />
@@ -56,6 +59,7 @@
     <Compile Include="Statement\ConditionIfElse.cs" />
     <Compile Include="Statement\JumpStatement.cs" />
     <Compile Include="Statement\SwitchCase.cs" />
+    <Compile Include="StringFunction\accessdemo.cs" />
     <Compile Include="StringFunction\StringExample.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="InterviewPractice Question.txt" />
+    <Content Include="OOPS Syllabus.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
