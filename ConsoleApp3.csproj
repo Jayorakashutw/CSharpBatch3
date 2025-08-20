@@ -48,8 +48,13 @@
     <Compile Include="Looping\LoopingExamples.cs" />
     <Compile Include="MathFunction\MathExamples.cs" />
     <Compile Include="OOPSExamples.cs" />
+    <Compile Include="OOPS\AbstractExample.cs" />
+    <Compile Include="OOPS\CheckedUnchecked.cs" />
     <Compile Include="OOPS\ConstructorExample.cs" />
+    <Compile Include="OOPS\CustomExceptionExample.cs" />
+    <Compile Include="OOPS\ExceptionHandling.cs" />
     <Compile Include="OOPS\PersonDetail.cs" />
+    <Compile Include="OOPS\Polymorphism.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Assignment.cs" />
     <Compile Include="Operators\TernaryRelationalComparisonal.cs" />

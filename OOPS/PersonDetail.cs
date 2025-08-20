@@ -29,12 +29,12 @@ namespace ConsoleApp3.OOPS
 
         public void DisplayDetails()
         {
-            Console.WriteLine("Name is \t" + name);
+            Console.WriteLine("Name is         \t" + name);
             Console.WriteLine("Parents Name is \t" + parentsname);
-            Console.WriteLine("Age is \t" + age);
-            Console.WriteLine("Address is \t" + address);
-            Console.WriteLine("Gender is \t" + gender);
-            Console.WriteLine("Phone No is \t" + phoneno);
+            Console.WriteLine("Age is          \t" + age);
+            Console.WriteLine("Address is      \t" + address);
+            Console.WriteLine("Gender is       \t" + gender);
+            Console.WriteLine("Phone No is     \t" + phoneno);
         }
     }
 
@@ -54,10 +54,50 @@ namespace ConsoleApp3.OOPS
         }
         public void DisplayDetails()
         {
-            Console.WriteLine("EmployeeID is \t" + empid);
-            Console.WriteLine("Designation is \t" + designation);
+            Console.WriteLine("EmployeeID is     \t" + empid);
+            Console.WriteLine("Designation is    \t" + designation);
+            Console.WriteLine("Department is     \t" + department);
+            base.DisplayDetails();
+        }
+    }
+
+    public class Students:PersonDetail
+    {
+        string studentid, course, department;
+
+        public void AcceptDetails()
+        {
+            Console.WriteLine("Enter Student ID");
+            studentid = Console.ReadLine();
+            Console.WriteLine("Enter Department");
+            department = Console.ReadLine();
+            Console.WriteLine("Enter Course");
+            course = Console.ReadLine();
+            base.AcceptDetails();
+        }
+        public void DisplayDetails()
+        {
+            Console.WriteLine("Student ID is \t" + studentid);
+            Console.WriteLine("Course is \t" + course);
             Console.WriteLine("Department is \t" + department);
             base.DisplayDetails();
+        }
+    }
+    public class EmployeeBonus:Employee
+    {
+        double bonusamount;
+
+        public void AcceptDetails()
+        {
+            base.AcceptDetails();
+            Console.WriteLine("Enter bonus Amount");
+            bonusamount = Convert.ToDouble(Console.ReadLine());
+        }
+        public void DisplayDetails()
+        {
+            Console.Clear();
+            base.DisplayDetails();
+            Console.WriteLine("Bonus amount \t" + bonusamount);
         }
     }
 }
