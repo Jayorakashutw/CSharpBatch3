@@ -1,13 +1,14 @@
 ﻿OOPS
-	1. OOPS Concept
-	2. Access Modifier
-	3. Abstraction and Encapsulation
-	4. Polymorphism
+	1. OOPS Concept -Completed
+	2. Access Modifier -Completed
+	3. Abstraction and Encapsulation - Completed
+	4. Polymorphism - Complete
 		a) virtual
 		b) override
-	5. Inheritance
+		c) Overloading
+	5. Inheritance - Completed
 		a)base
-	6. this, sealed, static, partial and readonly keyword
+	6. this, sealed, static, partial and readonly keyword - Completed
 
 	This - this referes to the current instance of a class. it's mainly used to differentiate between class fields and method parameter when they have the same name
 
@@ -29,9 +30,10 @@ Advance
 	1. Interface
 	2. Abstract Class
 	3. Threading
-	4. Exception Handling - try, catch, finally , throw, custom exceptions
+	4. Exception Handling - try, catch, finally , throw (throws in Java), custom exceptions
 	5. Collection - List, Dictionary, IList
 	6. Recursion
 	7. out and ref, value, params
 	8. Delegates
 	9. Anonymous, Lambda Expression, Func, Action, Predicate, 
+	10.Property
