@@ -55,6 +55,7 @@
     <Compile Include="OOPS\ExceptionHandling.cs" />
     <Compile Include="OOPS\PersonDetail.cs" />
     <Compile Include="OOPS\Polymorphism.cs" />
+    <Compile Include="OOPS\ThreadExample.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Assignment.cs" />
     <Compile Include="Operators\TernaryRelationalComparisonal.cs" />

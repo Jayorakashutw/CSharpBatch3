@@ -7,14 +7,46 @@ using ConsoleApp3.Operators;
 using ConsoleApp3.Statement;
 using ConsoleApp3.StringFunction;
 using System;
+using System.Threading;
+
 namespace ConsoleApp3
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            CheckedUnchecked cu = new CheckedUnchecked();
-            cu.CheckedExample();
+            MyThread mt = new MyThread();
+            Thread t1 = new Thread(new ThreadStart(mt.ThreadT));
+            Thread t2 = new Thread(new ThreadStart(mt.ThreadT));
+            //Thread t3 = new Thread(new ThreadStart(MyThread.ThreadT));
+            //t1.Name = "Rupam";
+            //t2.Name = "Rohan";
+            //t3.Name = "Om Prakash";
+            //t3.Priority = ThreadPriority.Highest;
+            //t2.Priority = ThreadPriority.Normal;
+            //t1.Priority = ThreadPriority.Lowest;
+            t1.Start();
+         //   t1.Join();
+            t2.Start();
+            //t3.Start();
+
+            //try
+            //{
+            //    t1.Abort();
+            //    t2.Abort();
+            //}
+            //catch(ThreadAbortException tea)
+            //{
+            //    Console.WriteLine(tea.ToString());
+            //}
+
+            //finally
+            //{
+            //    Console.WriteLine("Finally Block is running");
+            //}
+            //ThreadExample te = new ThreadExample();
+            //CheckedUnchecked cu = new CheckedUnchecked();
+            //cu.CheckedExample();
 
             //CustomExceptionExample example = new CustomExceptionExample();
 
