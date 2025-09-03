@@ -52,9 +52,16 @@
     <Compile Include="OOPS\CheckedUnchecked.cs" />
     <Compile Include="OOPS\ConstructorExample.cs" />
     <Compile Include="OOPS\CustomExceptionExample.cs" />
+    <Compile Include="OOPS\DelegateExample.cs" />
     <Compile Include="OOPS\ExceptionHandling.cs" />
+    <Compile Include="OOPS\GenericsExample.cs" />
+    <Compile Include="OOPS\ParamExample.cs" />
     <Compile Include="OOPS\PersonDetail.cs" />
     <Compile Include="OOPS\Polymorphism.cs" />
+    <Compile Include="OOPS\Property.cs" />
+    <Compile Include="OOPS\Recursion.cs" />
+    <Compile Include="OOPS\RefOut.cs" />
+    <Compile Include="OOPS\ThreadExample.cs" />
     <Compile Include="Operators\Arithmatic.cs" />
     <Compile Include="Operators\Assignment.cs" />
     <Compile Include="Operators\TernaryRelationalComparisonal.cs" />

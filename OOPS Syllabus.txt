@@ -31,9 +31,9 @@ Advance
 	2. Abstract Class
 	3. Threading
 	4. Exception Handling - try, catch, finally , throw (throws in Java), custom exceptions
-	5. Collection - List, Dictionary, IList
-	6. Recursion
-	7. out and ref, value, params
-	8. Delegates
-	9. Anonymous, Lambda Expression, Func, Action, Predicate, 
+	5. Recursion
+	6. out and ref, value, params , Generics
+	7. Delegates, Func, Action, Predicate,
+	8. Anonymous, Lambda Expression,  
+	9. Collection - List, Dictionary, IList
 	10.Property
